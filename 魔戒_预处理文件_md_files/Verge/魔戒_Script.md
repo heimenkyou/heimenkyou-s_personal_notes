@@ -11,6 +11,7 @@ function main(config) {
   config['proxy-groups'] = config['proxy-groups'].filter(group => group.name !== 'ChatGPT');
 
   // 返回更新后的config对象
+  console.log("已成功删除官方的ChatGPT分组!");
   return config;
 }
 ```

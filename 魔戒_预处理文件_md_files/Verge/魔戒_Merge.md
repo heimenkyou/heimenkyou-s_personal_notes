@@ -313,6 +313,7 @@ prepend-rules:
   - DOMAIN-SUFFIX,yammer.com,微软服务
   - DOMAIN-SUFFIX,yammerusercontent.com,微软服务
 
+append-rules: 
   - MATCH,🐟 漏网之鱼
 
 prepend-proxies: []
@@ -415,7 +416,6 @@ prepend-proxy-groups:
     - 澳大利亚AU-T
     - 土耳其TR-T
     - 卢森堡LUX-T
-    - 韩国KR-T
     - 意大利IT-T
     - 葡萄牙PT-T
     - 俄罗斯RU-T
@@ -424,8 +424,6 @@ prepend-proxy-groups:
     - 以色列IL-T
     - 英国UK-T
     - 阿根廷AR-T
-
-append-rules: []
 
 append-proxies: []
 
