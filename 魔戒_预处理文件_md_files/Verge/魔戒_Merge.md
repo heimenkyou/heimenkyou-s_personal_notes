@@ -6,6 +6,8 @@ prepend-rules:
   - DOMAIN-KEYWORD,zhihu,DIRECT
   - DOMAIN-KEYWORD,hebuee,DIRECT # 校园网相关(包括认证界面)
 
+  - DOMAIN-SUFFIX,codeforces.com,节点选择 # 来打算法赛罢
+
   # 内容：Discord
   # 数量：6条
   - DOMAIN-SUFFIX,discord.co,节点选择
@@ -349,7 +351,6 @@ prepend-proxy-groups:
   - name: ChatGPT（Auto）
     type: url-test
     proxies:
-    - 节点选择
     - 日本-优化
     - 日本-优化2
     - 日本-优化3
@@ -362,7 +363,6 @@ prepend-proxy-groups:
     - 哈萨克斯坦KZ-T
     - 英国UK-T
     - 葡萄牙PT-T
-    - 俄罗斯RU-T
     - 乌克兰UA-T
     - 土耳其TR-T
     - 阿根廷AR-T
@@ -405,8 +405,8 @@ prepend-proxy-groups:
     - 台湾-优化
     - 台湾-优化2
     - 台湾-优化3
-    - 朝鲜-优化2
-    - 朝鲜-优化3
+    #- 朝鲜-优化2
+    #- 朝鲜-优化3
     - 美国LA-优化-GPT
     - 美国LA-优化2-GPT
     - 美国LA-优化3-GPT
