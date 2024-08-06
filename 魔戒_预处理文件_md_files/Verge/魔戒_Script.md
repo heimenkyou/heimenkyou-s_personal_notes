@@ -14,7 +14,7 @@ function main(config) {
   // 遍历 rules 数组, 修改ChatGPT相关路由规则
   for (let i = 0; i < config.rules.length; i++) {
     let parts = config.rules[i].split(','); // 使用逗号分割规则
-    if (parts.length === 3 && parts[2] === 'ChatGPT') { // 检查是否第三个部分是 "ChatGPT"
+    if (parts.length >= 3 && parts[2] === 'ChatGPT') { // 检查第三个部分是否为 "ChatGPT"
       parts[2] = '🤖 ChatGPT'; // 替换为 "🤖 ChatGPT"
       config.rules[i] = parts.join(','); // 重新组合字符串
     }
