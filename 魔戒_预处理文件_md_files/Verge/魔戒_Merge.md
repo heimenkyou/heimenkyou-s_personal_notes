@@ -190,23 +190,23 @@ prepend-rules:
 
   # 内容：OpenAi
   # 数量：17条
-  - DOMAIN-KEYWORD,openai,ChatGPT
-  - DOMAIN,gemini.google.com,ChatGPT
-  - DOMAIN-SUFFIX,auth0.com,ChatGPT
-  - DOMAIN-SUFFIX,challenges.cloudflare.com,ChatGPT
-  - DOMAIN-SUFFIX,chatgpt.com,ChatGPT
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com,ChatGPT
-  - DOMAIN-SUFFIX,events.statsigapi.net,ChatGPT
-  - DOMAIN-SUFFIX,featuregates.org,ChatGPT
-  - DOMAIN-SUFFIX,identrust.com,ChatGPT
-  - DOMAIN-SUFFIX,intercom.io,ChatGPT
-  - DOMAIN-SUFFIX,intercomcdn.com,ChatGPT
-  - DOMAIN-SUFFIX,oaistatic.com,ChatGPT
-  - DOMAIN-SUFFIX,oaiusercontent.com,ChatGPT
-  - DOMAIN-SUFFIX,openai.com,ChatGPT
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,ChatGPT
-  - DOMAIN-SUFFIX,sentry.io,ChatGPT
-  - DOMAIN-SUFFIX,stripe.com,ChatGPT
+  - DOMAIN-KEYWORD,openai,🤖 ChatGPT
+  - DOMAIN,gemini.google.com,🤖 ChatGPT
+  - DOMAIN-SUFFIX,auth0.com,🤖 ChatGPT
+  - DOMAIN-SUFFIX,challenges.cloudflare.com,🤖 ChatGPT
+  - DOMAIN-SUFFIX,chatgpt.com,🤖 ChatGPT
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com,🤖 ChatGPT
+  - DOMAIN-SUFFIX,events.statsigapi.net,🤖 ChatGPT
+  - DOMAIN-SUFFIX,featuregates.org,🤖 ChatGPT
+  - DOMAIN-SUFFIX,identrust.com,🤖 ChatGPT
+  - DOMAIN-SUFFIX,intercom.io,🤖 ChatGPT
+  - DOMAIN-SUFFIX,intercomcdn.com,🤖 ChatGPT
+  - DOMAIN-SUFFIX,oaistatic.com,🤖 ChatGPT
+  - DOMAIN-SUFFIX,oaiusercontent.com,🤖 ChatGPT
+  - DOMAIN-SUFFIX,openai.com,🤖 ChatGPT
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🤖 ChatGPT
+  - DOMAIN-SUFFIX,sentry.io,🤖 ChatGPT
+  - DOMAIN-SUFFIX,stripe.com,🤖 ChatGPT
 
   # 内容：Bilibili 哔哩哔哩
   # 数量：21条
@@ -321,10 +321,10 @@ append-rules:
 prepend-proxies: []
 
 prepend-proxy-groups:
-  - name: ChatGPT
+  - name: 🤖 ChatGPT
     type: select
     proxies:
-    - ChatGPT（Auto）
+    - 🤖 ChatGPT（Auto）
     - 节点选择
     - 日本-优化
     - 日本-优化2
@@ -346,9 +346,9 @@ prepend-proxy-groups:
     - 台湾-优化
     - 台湾-优化2
     - 台湾-优化3
-    - 英国-优化
+   # - 英国-优化
     
-  - name: ChatGPT（Auto）
+  - name: 🤖 ChatGPT（Auto）
     type: url-test
     proxies:
     - 日本-优化
@@ -370,7 +370,7 @@ prepend-proxy-groups:
     - 台湾-优化
     - 台湾-优化2
     - 台湾-优化3
-    - 英国-优化
+   # - 英国-优化
     url: https://chat.openai.com/
     interval: 300
     tolerance: 7200
@@ -393,14 +393,14 @@ prepend-proxy-groups:
     - 新加坡-优化
     - 新加坡-优化2
     - 新加坡-优化3
-    - 香港HY-优化
-    - 香港HY-优化2
+    #- 香港HY-优化
+    #- 香港HY-优化2
     - 香港wap-T
     - 台湾WAP-T
     - 越南VN-T
     - 香港WAP-优化
     - 香港WAP-优化2
-    - 香港HKT-优化2
+    #- 香港HKT-优化2
     - 印度-优化
     - 台湾-优化
     - 台湾-优化2
@@ -410,7 +410,7 @@ prepend-proxy-groups:
     - 美国LA-优化-GPT
     - 美国LA-优化2-GPT
     - 美国LA-优化3-GPT
-    - 英国-优化
+    #- 英国-优化
     - 英国-优化2
     - 英国-优化3
     - 澳大利亚AU-T
